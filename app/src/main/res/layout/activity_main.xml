@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <EditText
+                android:id="@+id/et_main_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+        </EditText>
+
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+            <Button
+                    android:id="@+id/btnMainSeven"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_seven"
+                    android:textSize="@dimen/text_size_15"/>
+
+            <Button
+                    android:id="@+id/btnMainEight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/btnMainSeven"
+                    android:text="@string/txt_eight"
+                    android:textSize="@dimen/text_size_15"/>
+
+            <Button
+                    android:id="@+id/btnMainNine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/btnMainEight"
+                    android:text="@string/txt_nine"
+                    android:textSize="@dimen/text_size_15"/>
+
+            <Button
+                    android:id="@+id/btnMainClear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/btnMainNine"
+                    android:text="@string/txt_clear"
+                    android:textSize="@dimen/text_size_15"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+            <Button
+                    android:id="@+id/btnMainFour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_four"
+                    android:textSize="@dimen/text_size_15"/>
+
+            <Button
+                    android:id="@+id/btnMainFive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/btnMainFour"
+                    android:text="@string/txt_five"
+                    android:textSize="@dimen/text_size_15"/>
+
+            <Button
+                    android:id="@+id/btnMainSix"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/btnMainFive"
+                    android:text="@string/txt_six"
+                    android:textSize="@dimen/text_size_15"/>
+
+            <Button
+                    android:id="@+id/btnMainDivision"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/btnMainSix"
+                    android:text="@string/txt_division"
+                    android:textSize="@dimen/text_size_15"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+            <Button
+                    android:id="@+id/btnMainOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_one"
+                    android:textSize="@dimen/text_size_15"/>
+
+            <Button
+                    android:id="@+id/btnMainTwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/btnMainOne"
+                    android:text="@string/txt_two"
+                    android:textSize="@dimen/text_size_15"/>
+
+            <Button
+                    android:id="@+id/btnMainThree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/btnMainTwo"
+                    android:text="@string/txt_three"
+                    android:textSize="@dimen/text_size_15"/>
+
+            <Button
+                    android:id="@+id/btnMainMultiply"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/btnMainThree"
+                    android:text="@string/txt_multiply"
+                    android:textSize="@dimen/text_size_15"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+            <Button
+                    android:id="@+id/btnMainDot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_dot"
+                    android:textSize="@dimen/text_size_15"/>
+
+            <Button
+                    android:id="@+id/btnMainZero"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/btnMainDot"
+                    android:text="@string/txt_zero"
+                    android:textSize="@dimen/text_size_15"/>
+
+            <Button
+                    android:id="@+id/btnMainPlus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/btnMainZero"
+                    android:text="@string/txt_plus"
+                    android:textSize="@dimen/text_size_15"/>
+
+            <Button
+                    android:id="@+id/btnMainMinus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/btnMainPlus"
+                    android:text="@string/txt_minus"
+                    android:textSize="@dimen/text_size_15"/>
+        </RelativeLayout>
+
+        <Button
+                android:id="@+id/btnMainEqual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorOrange"
+                android:text="@string/txt_equal"
+                android:textSize="@dimen/text_size_15"/>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
